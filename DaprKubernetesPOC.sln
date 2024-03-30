@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomerAPIs", "CustomerAPIs\CustomerAPIs.csproj", "{C9658BD7-64F3-49E0-8422-630E7571CE45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvoicingAPIs", "InvoicingAPIs\InvoicingAPIs.csproj", "{90BCEFA5-EB65-4CE0-B978-25EEC4829048}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentAPIs", "PaymentAPIs\PaymentAPIs.csproj", "{95503A01-9046-4C27-A574-5EAFB723BB58}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C9658BD7-64F3-49E0-8422-630E7571CE45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9658BD7-64F3-49E0-8422-630E7571CE45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9658BD7-64F3-49E0-8422-630E7571CE45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9658BD7-64F3-49E0-8422-630E7571CE45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90BCEFA5-EB65-4CE0-B978-25EEC4829048}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90BCEFA5-EB65-4CE0-B978-25EEC4829048}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90BCEFA5-EB65-4CE0-B978-25EEC4829048}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90BCEFA5-EB65-4CE0-B978-25EEC4829048}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95503A01-9046-4C27-A574-5EAFB723BB58}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95503A01-9046-4C27-A574-5EAFB723BB58}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95503A01-9046-4C27-A574-5EAFB723BB58}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95503A01-9046-4C27-A574-5EAFB723BB58}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

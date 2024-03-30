@@ -1,0 +1,27 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+    name: invoicecreationbinding
+spec:
+    type: bindings.azure.storagequeues
+    version: v1
+    metadata:
+    - name: accountName
+      value: "devstoreaccount1"
+    - name: accountKey
+      value: "Eby8vdM02xNOcqFlqUwJPLlmEtlCDXJ1OUzFT50uSRZ6IFsuFq2UVErCz4I6tq/K1SZFPTOtr/KBHBeksoGMGw=="
+    - name: endpoint
+      value: "http://127.0.0.1:10001"
+    - name: queueName
+      value: "invoicecreationbinding"
+    - name: consumerGroup
+      value: "invoicecreationbinding"
+    - name: publishTopic
+      value: "invoicecreationbinding"
+    - name: route
+      value: /invoicecreationbinding
+    - name: direction 
+      value: "input, output"
+scopes  :
+  - customerapis
+  - invoicingapis

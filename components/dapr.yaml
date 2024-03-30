@@ -1,0 +1,24 @@
+version: 1
+common:
+  resourcesPath: .
+  env:
+    DEBUG: true
+apps:
+  - appID: customerapis
+    appPort: 5162
+    daprHTTPPort: 12001
+    appProtocol: http
+    appDirPath: ./../CustomerAPIs
+    command: ["dotnet", "run"]
+  - appID: invoicingapis
+    appPort: 5156
+    daprHTTPPort: 12002
+    appProtocol: http
+    appDirPath: ./../InvoicingAPIs
+    command: ["dotnet", "run"]
+  - appID: paymentapis
+    appPort: 5087
+    daprHTTPPort: 12003
+    appProtocol: http
+    appDirPath: ./../PaymentAPIs
+    command: ["dotnet", "run"]
